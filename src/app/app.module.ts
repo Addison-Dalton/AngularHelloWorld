@@ -11,6 +11,7 @@ import { AuthorsComponent } from './authors/authors.component';
 import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitlecastingComponent } from './titlecasting/titlecasting.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TitlecastingComponent } from './titlecasting/titlecasting.component';
     AuthorsComponent,
     SummaryPipe,
     FavoriteComponent,
-    TitlecastingComponent
+    TitlecastingComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
